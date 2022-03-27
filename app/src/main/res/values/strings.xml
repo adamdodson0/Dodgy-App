@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DodgyBalloon</string>
+    <string name="action_settings">Settings</string>
+    <string name="score2lose">SCORE: %1$s</string>
+    <string name="score">Score: %1$s</string>
+    <string name="highscore">HIGHSCORE: %1$s</string>
+    <string name="pausedTimer2">2 more pauses available</string>
+    <string name="pausedTimer1">1 more pause available</string>
+    <string name="pausedTimer0">No more pauses available</string>
+</resources>

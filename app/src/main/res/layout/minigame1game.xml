@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue">
+
+
+    <ImageView
+        android:id="@+id/frank"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.08"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <ImageView
+        android:id="@+id/ghost"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.28"
+        app:srcCompat="@drawable/saw" />
+
+    <ImageView
+        android:id="@+id/ghost2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.28"
+        app:srcCompat="@drawable/saw" />
+
+    <TextView
+        android:id="@+id/paused"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paused"
+        android:textColor="#FFFFFFFF"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/pausedTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:gravity="center_horizontal"
+        android:text="2 more pauses available"
+        android:textAlignment="center"
+        android:textColor="#FFFFFFFF"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/beginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move the balloon to begin"
+        android:textSize="33sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <ImageView
+        android:id="@+id/coin"
+        app:srcCompat="@drawable/three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.09"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
